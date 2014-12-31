@@ -6,7 +6,7 @@ Visual tool to manage codeforces API
 http://codeforces.com/
 
 
-Programs ans libraries
+Programs and libraries
 ======================
 ->  Python32
 ->  (Library) PyQt4

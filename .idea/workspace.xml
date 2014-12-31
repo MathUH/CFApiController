@@ -74,7 +74,7 @@
       <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="12" selection-start="154" selection-end="154" vertical-scroll-proportion="0.5029586" vertical-offset="0" max-vertical-offset="374">
+            <state line="8" column="12" selection-start="108" selection-end="108" vertical-scroll-proportion="0.40236688" vertical-offset="0" max-vertical-offset="374">
               <folding />
             </state>
           </provider>
@@ -198,28 +198,14 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Graphics" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="135" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="152" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="67" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="76" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
@@ -227,13 +213,13 @@
     <property name="options.lastSelected" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="recentsLimit" value="5" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="156" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="53" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="120" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="831" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="877" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="152" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="145" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="60" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="477" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="423" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="50" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="46" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
@@ -561,7 +547,15 @@
       <created>1420062111042</created>
       <updated>1420062111042</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Changes:&#10;* UPD: Readme.md&#10;* New graphic example functional">
+      <created>1420062335559</created>
+      <updated>1420062335559</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Changes:&#10;* UPD: Readme.md&#10;* New graphic example functional">
+      <created>1420062354886</created>
+      <updated>1420062354886</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -577,7 +571,7 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18797565" sideWeight="0.59574467" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952815" sideWeight="0.9230769" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.40425533" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23404256" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" x="338" y="85" width="590" height="613" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.40425533" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -620,7 +614,8 @@
     <MESSAGE value="Changes:&#10;* (CFObjects) attrs is a now a list with all parameters that an element shoul have&#10;* (CFObjects) load &amp; dump objects&#10;" />
     <MESSAGE value="Changes:&#10;*&#9;Error class to handle requested submissions&#10;&#10;Updates:&#10;* Graphics interface to see CF Api Objects&#10;* Manger to find user" />
     <MESSAGE value="Changes:&#10;* Created an Updated TODO list" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changes:&#10;* Created an Updated TODO list" />
+    <MESSAGE value="Changes:&#10;* UPD: Readme.md&#10;* New graphic example functional" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changes:&#10;* UPD: Readme.md&#10;* New graphic example functional" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -701,13 +696,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TODO.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="57" selection-start="125" selection-end="125" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="136">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/example_graphics.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="10" selection-start="31" selection-end="31" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
@@ -715,9 +703,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/TODO.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="57" selection-start="125" selection-end="125" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="136">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="12" selection-start="154" selection-end="154" vertical-scroll-proportion="0.5029586" vertical-offset="0" max-vertical-offset="374">
+        <state line="8" column="12" selection-start="108" selection-end="108" vertical-scroll-proportion="0.40236688" vertical-offset="0" max-vertical-offset="374">
           <folding />
         </state>
       </provider>
