@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="58031d60-7715-4066-860a-ecd9d916f432" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TODO.py" afterPath="$PROJECT_DIR$/TODO.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="CF.iws" />
@@ -56,18 +56,25 @@
       <file leaf-file-name="example_graphics.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/example_graphics.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="33" selection-start="107" selection-end="107" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
-              <folding>
-                <element signature="e#21#31#0" expanded="true" />
-              </folding>
+            <state line="2" column="10" selection-start="31" selection-end="31" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TODO.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="TODO.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TODO.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="57" selection-start="125" selection-end="125" vertical-scroll-proportion="0.10059172" vertical-offset="0" max-vertical-offset="338">
+            <state line="2" column="57" selection-start="125" selection-end="125" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="136">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="12" selection-start="154" selection-end="154" vertical-scroll-proportion="0.5029586" vertical-offset="0" max-vertical-offset="374">
               <folding />
             </state>
           </provider>
@@ -136,6 +143,7 @@
         <option value="$PROJECT_DIR$/Graphics/CFFindUser.py" />
         <option value="$PROJECT_DIR$/test_graphics.py" />
         <option value="$PROJECT_DIR$/TODO.py" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -549,7 +557,11 @@
       <created>1420061973754</created>
       <updated>1420061973754</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Changes:&#10;* Created an Updated TODO list">
+      <created>1420062111042</created>
+      <updated>1420062111042</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -673,15 +685,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/example_graphics.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="33" selection-start="107" selection-end="107" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
-          <folding>
-            <element signature="e#21#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="22" column="0" selection-start="605" selection-end="605" vertical-scroll-proportion="0.0" vertical-offset="145" max-vertical-offset="578">
@@ -700,7 +703,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/TODO.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="57" selection-start="125" selection-end="125" vertical-scroll-proportion="0.10059172" vertical-offset="0" max-vertical-offset="338">
+        <state line="2" column="57" selection-start="125" selection-end="125" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="136">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example_graphics.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="10" selection-start="31" selection-end="31" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="12" selection-start="154" selection-end="154" vertical-scroll-proportion="0.5029586" vertical-offset="0" max-vertical-offset="374">
           <folding />
         </state>
       </provider>
