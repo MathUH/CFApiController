@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="58031d60-7715-4066-860a-ecd9d916f432" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TODO.py" />
+    <list default="true" id="58031d60-7715-4066-860a-ecd9d916f432" name="Default" comment="&#10;">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TODO.py" afterPath="$PROJECT_DIR$/TODO.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="CF.iws" />
@@ -67,7 +67,7 @@
       <file leaf-file-name="TODO.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/TODO.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="0" selection-start="59" selection-end="59" vertical-scroll-proportion="0.02905983" vertical-offset="0" max-vertical-offset="585">
+            <state line="0" column="14" selection-start="14" selection-end="14" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="585">
               <folding />
             </state>
           </provider>
@@ -541,7 +541,11 @@
       <created>1420061769600</created>
       <updated>1420061769600</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Changes:&#10;* Created an Updated TODO list">
+      <created>1420061961012</created>
+      <updated>1420061961012</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -599,7 +603,8 @@
     <MESSAGE value="Testing Codeforces Methods&#10;(Missing methods yet)" />
     <MESSAGE value="Changes:&#10;* (CFObjects) attrs is a now a list with all parameters that an element shoul have&#10;* (CFObjects) load &amp; dump objects&#10;" />
     <MESSAGE value="Changes:&#10;*&#9;Error class to handle requested submissions&#10;&#10;Updates:&#10;* Graphics interface to see CF Api Objects&#10;* Manger to find user" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changes:&#10;*&#9;Error class to handle requested submissions&#10;&#10;Updates:&#10;* Graphics interface to see CF Api Objects&#10;* Manger to find user" />
+    <MESSAGE value="Changes:&#10;* Created an Updated TODO list" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changes:&#10;* Created an Updated TODO list" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -691,7 +696,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/TODO.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="59" selection-end="59" vertical-scroll-proportion="0.02905983" vertical-offset="0" max-vertical-offset="585">
+        <state line="0" column="14" selection-start="14" selection-end="14" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="585">
           <folding />
         </state>
       </provider>
