@@ -19,9 +19,9 @@
      <item>
       <layout class="QHBoxLayout" name="horizontalLayout">
        <item>
-        <widget class="QLabel" name="label">
+        <widget class="QLabel" name="Handle_2">
          <property name="text">
-          <string>User:</string>
+          <string>Handle:</string>
          </property>
         </widget>
        </item>

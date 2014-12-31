@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="58031d60-7715-4066-860a-ecd9d916f432" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Graphics/CFAbstractObject.ui" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Graphics/CFFindUser.ui" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Graphics/CFAbstractObjectUI.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Graphics/CFFindUser.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Graphics/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CFMethods.py" afterPath="$PROJECT_DIR$/CFMethods.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Graphics/CFFindUser.ui" afterPath="$PROJECT_DIR$/Graphics/CFFindUser.ui" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="CF.iws" />
@@ -27,7 +21,7 @@
     <SUITE FILE_PATH="coverage/CF$test.coverage" NAME="test Coverage Results" MODIFIED="1420057706554" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/CF$CFAbstractObjectUI.coverage" NAME="CFAbstractObjectUI Coverage Results" MODIFIED="1420059294465" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Graphics" />
     <SUITE FILE_PATH="coverage/CF$objects.coverage" NAME="objects Coverage Results" MODIFIED="1419896879266" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/CF$test_graphics.coverage" NAME="test_graphics Coverage Results" MODIFIED="1420061464081" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/CF$test_graphics.coverage" NAME="test_graphics Coverage Results" MODIFIED="1420061620530" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/CF$CFObject.coverage" NAME="CFObject Coverage Results" MODIFIED="1420057684880" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/CF$CFMethods.coverage" NAME="CFMethods Coverage Results" MODIFIED="1419903582422" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
@@ -59,10 +53,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test_graphics.py" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="test_graphics.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test_graphics.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="0" selection-start="465" selection-end="465" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408">
+            <state line="15" column="10" selection-start="249" selection-end="249" vertical-scroll-proportion="0.5944056" vertical-offset="0" max-vertical-offset="429">
               <folding>
                 <element signature="e#21#31#0" expanded="true" />
               </folding>
@@ -70,10 +64,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CFFindUser.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="CFFindUser.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Graphics/CFFindUser.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="53" selection-start="710" selection-end="710" vertical-scroll-proportion="1.0" vertical-offset="68" max-vertical-offset="969">
+            <state line="30" column="53" selection-start="710" selection-end="710" vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="969">
               <folding>
                 <element signature="e#21#42#0" expanded="true" />
               </folding>
@@ -129,9 +123,9 @@
         <option value="$PROJECT_DIR$/__init__.py" />
         <option value="$PROJECT_DIR$/Graphics/__init__.py" />
         <option value="$PROJECT_DIR$/Graphics/CFAbstractObjectUI.py" />
-        <option value="$PROJECT_DIR$/test_graphics.py" />
         <option value="$PROJECT_DIR$/CFMethods.py" />
         <option value="$PROJECT_DIR$/Graphics/CFFindUser.py" />
+        <option value="$PROJECT_DIR$/test_graphics.py" />
       </list>
     </option>
   </component>
@@ -529,7 +523,11 @@
       <created>1420058195913</created>
       <updated>1420058195913</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Changes:&#10;*&#9;Error class to handle requested submissions&#10;&#10;Updates:&#10;* Graphics interface to see CF Api Objects&#10;* Manger to find user">
+      <created>1420061600595</created>
+      <updated>1420061600595</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -586,7 +584,8 @@
     </option>
     <MESSAGE value="Testing Codeforces Methods&#10;(Missing methods yet)" />
     <MESSAGE value="Changes:&#10;* (CFObjects) attrs is a now a list with all parameters that an element shoul have&#10;* (CFObjects) load &amp; dump objects&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changes:&#10;* (CFObjects) attrs is a now a list with all parameters that an element shoul have&#10;* (CFObjects) load &amp; dump objects&#10;" />
+    <MESSAGE value="Changes:&#10;*&#9;Error class to handle requested submissions&#10;&#10;Updates:&#10;* Graphics interface to see CF Api Objects&#10;* Manger to find user" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changes:&#10;*&#9;Error class to handle requested submissions&#10;&#10;Updates:&#10;* Graphics interface to see CF Api Objects&#10;* Manger to find user" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -658,20 +657,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_graphics.py">
+    <entry file="file://$PROJECT_DIR$/Graphics/CFFindUser.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="465" selection-end="465" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408">
+        <state line="30" column="53" selection-start="710" selection-end="710" vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="969">
           <folding>
-            <element signature="e#21#31#0" expanded="true" />
+            <element signature="e#21#42#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Graphics/CFFindUser.py">
+    <entry file="file://$PROJECT_DIR$/test_graphics.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="53" selection-start="710" selection-end="710" vertical-scroll-proportion="1.0" vertical-offset="68" max-vertical-offset="969">
+        <state line="15" column="10" selection-start="249" selection-end="249" vertical-scroll-proportion="0.5944056" vertical-offset="0" max-vertical-offset="429">
           <folding>
-            <element signature="e#21#42#0" expanded="true" />
+            <element signature="e#21#31#0" expanded="true" />
           </folding>
         </state>
       </provider>
