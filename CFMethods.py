@@ -26,6 +26,10 @@ def mystr(s):
 
     return ans
 
+class CFError:
+    def __init__(self, msg = ""):
+        self.msg = msg
+
 class CFAbstractMethod:
     def __init__(self, **kargs):
         self.params = kargs
@@ -71,8 +75,7 @@ class CFAbstractMethod:
         if (status):
             return ans
         else:
-            print("FAILED")
-            return ans
+            return CFError(ans)
 
 class contest_hacks(CFAbstractMethod):
     """
@@ -91,7 +94,7 @@ class contest_hacks(CFAbstractMethod):
         if status:
             return [CFHack(i) for i in ans]
         else:
-            print(ans)
+            return CFError(ans)
 
 
 class contest_list(CFAbstractMethod):
@@ -111,7 +114,7 @@ class contest_list(CFAbstractMethod):
         if status:
             return [CFContest(i) for i in ans]
         else:
-            print(ans)
+            return CFError(ans)
 
 
 class contest_standings(CFAbstractMethod):
@@ -139,7 +142,7 @@ class contest_standings(CFAbstractMethod):
             rows = [CFRanklistRow(i) for i in ans["rows"]]
             return (contest, problems, rows)
         else:
-            print(ans)
+            return CFError(ans)
 
 
 class contest_status(CFAbstractMethod):
@@ -162,7 +165,7 @@ class contest_status(CFAbstractMethod):
         if status:
             return [CFSubmission(i) for i in ans]
         else:
-            print(ans)
+            return CFError(ans)
 
 
 class problemset_problems(CFAbstractMethod):
@@ -182,7 +185,7 @@ class problemset_problems(CFAbstractMethod):
         if status:
             return ans
         else:
-            print(ans)
+            return CFError(ans)
 
 
 class problemset_recentStatus(CFAbstractMethod):
@@ -202,7 +205,7 @@ class problemset_recentStatus(CFAbstractMethod):
         if status:
             return [CFSubmission(i) for i in ans]
         else:
-            print(ans)
+            return CFError(ans)
 
 
 class user_info(CFAbstractMethod):
@@ -222,7 +225,7 @@ class user_info(CFAbstractMethod):
         if status:
             return [CFUser(i) for i in ans]
         else:
-            print(ans)
+            return CFError(ans)
 
 
 class user_ratedList(CFAbstractMethod):
@@ -242,7 +245,7 @@ class user_ratedList(CFAbstractMethod):
         if status:
             return [CFUser(i) for i in ans]
         else:
-            print(ans)
+            return CFError(ans)
 
 
 class user_rating(CFAbstractMethod):
@@ -262,7 +265,7 @@ class user_rating(CFAbstractMethod):
         if status:
             return [CFRatingChange(i) for i in ans]
         else:
-            print(ans)
+            return CFError(ans)
 
 
 class user_status(CFAbstractMethod):
@@ -284,7 +287,7 @@ class user_status(CFAbstractMethod):
         if status:
             return [CFSubmission(i) for i in ans]
         else:
-            print(ans)
+            return CFError(ans)
 
 CFMethodList = [contest_hacks,
                 contest_list,
