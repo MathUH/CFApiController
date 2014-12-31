@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="58031d60-7715-4066-860a-ecd9d916f432" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Graphics/CFFindUser.ui" afterPath="$PROJECT_DIR$/Graphics/CFFindUser.ui" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TODO.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="CF.iws" />
@@ -53,13 +53,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test_graphics.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="test_graphics.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test_graphics.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="10" selection-start="249" selection-end="249" vertical-scroll-proportion="0.5944056" vertical-offset="0" max-vertical-offset="429">
+            <state line="4" column="33" selection-start="107" selection-end="107" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
               <folding>
                 <element signature="e#21#31#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TODO.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/TODO.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="0" selection-start="59" selection-end="59" vertical-scroll-proportion="0.02905983" vertical-offset="0" max-vertical-offset="585">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -126,6 +135,7 @@
         <option value="$PROJECT_DIR$/CFMethods.py" />
         <option value="$PROJECT_DIR$/Graphics/CFFindUser.py" />
         <option value="$PROJECT_DIR$/test_graphics.py" />
+        <option value="$PROJECT_DIR$/TODO.py" />
       </list>
     </option>
   </component>
@@ -527,7 +537,11 @@
       <created>1420061600595</created>
       <updated>1420061600595</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Changes:&#10;*&#9;Error class to handle requested submissions&#10;&#10;Updates:&#10;* Graphics interface to see CF Api Objects&#10;* Manger to find user">
+      <created>1420061769600</created>
+      <updated>1420061769600</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -540,12 +554,12 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952815" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24961948" sideWeight="0.63829786" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18797565" sideWeight="0.7659575" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18797565" sideWeight="0.59574467" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952815" sideWeight="0.9230769" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23404256" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" x="338" y="85" width="590" height="613" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3289689" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23404256" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" x="338" y="85" width="590" height="613" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.40425533" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -668,10 +682,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test_graphics.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="10" selection-start="249" selection-end="249" vertical-scroll-proportion="0.5944056" vertical-offset="0" max-vertical-offset="429">
+        <state line="4" column="33" selection-start="107" selection-end="107" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
           <folding>
             <element signature="e#21#31#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TODO.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="0" selection-start="59" selection-end="59" vertical-scroll-proportion="0.02905983" vertical-offset="0" max-vertical-offset="585">
+          <folding />
         </state>
       </provider>
     </entry>
