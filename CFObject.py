@@ -1,24 +1,43 @@
 __author__ = 'MarX'
 
+import json
+
 class CFObject:
     attr = ""
     def __init__(self, s = None):
-        for i in self.attr.split(','):
+        self.attrs = self.attr.split(',')
+        for i in self.attrs:
             self.__setattr__(i, None)
 
         if (s != None):
             self.load(s)
 
-    def load(self, s):
-        for i in s:
-            self.__setattr__(i, s[i])
-
     def get_all(self):
-        for i in self.attr.split(','):
+        for i in self.attrs:
             cur = self.__getattribute__(i)
             if (cur == None):
                 continue
             yield (i, cur)
+
+    def dumps(self):
+        data = {}
+        for i, j in self.get_all():
+            data.update( {i : j} )
+        return json.dumps(data)
+
+    def load(self, s):
+        """ Load object from dictionary
+        """
+        for i in s:
+            self.__setattr__(i, s[i])
+
+    def loads(self, data):
+        """ Load object from json
+        """
+        self.__init__()
+        data_p = json.loads(data)
+        self.load(data_p)
+
 
 class CFUser(CFObject):
     attr = "handle,email,vkId,openId,firstName,lastName,country,city,organization,contribution,rank,rating,maxRank,maxRating,lastOnlineTimeSeconds,registrationTimeSeconds"
