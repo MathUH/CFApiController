@@ -8,20 +8,19 @@ TO_TEST = """
 contest_list,
 contest_standings,
 contest_status,
-problemset_problems,
 problemset_recentStatus,
-user_info,
 user_ratedList,
 user_rating
 """
 
 def main():
-    testing = contest_hacks(200)
+    testing = user_info(["otero1991", "jcg", "marX"])
+    print(testing.url())
     data = testing.get()
     for i in data:
-        print("CUR HACK")
-        for j, t in i.get_all():
-            print(j, t)
+        print()
+        for j, k in i.get_all():
+            print(j, k)
 
 
 if __name__ == "__main__":
